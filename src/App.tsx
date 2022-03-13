@@ -15,10 +15,7 @@ function App() {
   return (
     <div className="App">
       {isLoading && <h1>loading....</h1>}
-      {error &&
-        <h1>
-          {error}
-        </h1>}
+      {error &&<h1>{error} </h1>}
       {JSON.stringify(users)}
     </div>
   );
